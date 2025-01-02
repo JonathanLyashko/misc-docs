@@ -1,6 +1,6 @@
 # Installing oh-my-posh
 
-This is the one stop guide to making your windows terminal look like more that a collection of characters. I created this file as I encounted some errors while going through the original documentation. This file includes a step which allows you to manually update the theme. 
+This is the one stop guide to making your windows terminal look like more that a collection of characters. I created this file as I encountered some errors while going through the original documentation. This file includes a step which allows you to manually update the theme. 
 
 ---
 
