@@ -37,9 +37,9 @@ This is the one stop guide to making your windows terminal look like more that a
     - Or visit <a href="https://ohmyposh.dev/docs/themes" style="display:inline-block; background-color:#0078D4; color:white; padding:6px 12px; text-align:center; text-decoration:none; font-size:16px; border-radius:32px; font-family:Arial, sans-serif;">Explore Themes</a>
 - You will be promted with something along the lines of the following:
     ```bash
-    To change your theme, adjust the init script in C:\Users\lyash\OneDrive\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1.
+    To change your theme, adjust the init script in C:\Users\[YOUR USERNAME]\OneDrive\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1.
     Example:
-    oh-my-posh init pwsh --config 'C:\Users\yourusername\AppData\Local\Programs\oh-my-posh\themes\jandedobbeleer.omp.json' | Invoke-Expression
+    oh-my-posh init pwsh --config 'C:\Users\[YOUR USERNAME]\AppData\Local\Programs\oh-my-posh\themes\jandedobbeleer.omp.json' | Invoke-Expression
     ```
     - replace "jandedobbeleer" with the name of your desired theme
     - if this returns an error, we can update the variables manually.
@@ -62,7 +62,7 @@ This is the one stop guide to making your windows terminal look like more that a
     ```
 - To manually update your theme, add this instead:
     ```
-    oh-my-posh init pwsh --config 'C:\Users\yourusername\AppData\Local\Programs\oh-my-posh\themes\[your theme name].omp.json' | Invoke-Expression
+    oh-my-posh init pwsh --config 'C:\Users\[YOUR USERNAME]\AppData\Local\Programs\oh-my-posh\themes\[YOUR THEME NAME].omp.json' | Invoke-Expression
     ```
 - Run: 
     ```bash
