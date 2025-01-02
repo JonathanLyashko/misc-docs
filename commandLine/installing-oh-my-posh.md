@@ -45,6 +45,7 @@ This is the one stop guide to making your windows terminal look like more that a
     - if this returns an error, we can update the variables manually.
 
 #### 2.1 Manually update theme
+###### IMPORTANT: Do this even if the previous step worked
 
 - If you are using powershell, complete the following. Otherwise, use this tool and documentation to find the next steps. <a href="https://ohmyposh.dev/docs/installation/prompt" style="display:inline-block; background-color:#0078D4; color:white; padding:6px 12px; text-align:center; text-decoration:none; font-size:16px; border-radius:32px; font-family:Arial, sans-serif;">Find Shell</a>
 - Run:
