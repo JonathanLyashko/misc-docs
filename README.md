@@ -1,6 +1,6 @@
 # Personal Documentation Repository
 
-Welcome to my **Documentation Collection**, a repository where I store various guides, notes, and resources that I have written for myself. This serves as a personal knowledge base for reference and learning.
+Welcome to my **Documentation Collection**, a public repository where I store various guides, notes, and resources that I have written for myself. This serves as a personal knowledge base for reference and learning.
 
 ---
 
