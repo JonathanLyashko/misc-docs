@@ -83,4 +83,4 @@ This is primarily a personal repository, but if you find something useful and wa
 
 ---
 
-Happy documenting! 🎉
+Happy documenting :) 🎉
