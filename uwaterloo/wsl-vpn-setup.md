@@ -1,6 +1,6 @@
 # UWaterloo VPN Install on WSL
 
-This is a guide for setting up the University of Waterloo's VPN on wsl. I personally used this method rather than the traditional windows ui based install as there was no Cisco Secure Client release available for my ARM based Windows machine at the time. The following steps will be outlined:
+This is a guide for setting up the University of Waterloo's VPN on wsl. I personally used this method rather than the traditional Windows UI based install as there was no Cisco Secure Client release available for my ARM based Windows machine at the time. The following steps will be outlined:
 1. Install and configure the University of Waterloo's VPN client in WSL.
 2. Use `tmux` for managing terminal sessions.
 3. Set up and use SSH to connect to remote servers.
@@ -37,21 +37,20 @@ Start a new session:
 ```bash
 tmux
 ```
-### Step 2.3: Detach from the Session
-To detach from the `tmux` session (leave it running):
-```bash
-Ctrl+b d
-```
-
-### Step 2.4: Run VPN in a `tmux` Session
+### Step 2.3: Run VPN in a `tmux` Session
 To connect to the University of Waterloo's VPN:
 ```bash
 sudo openconnect -v cn-vpn.uwaterloo.ca
 ```
-- This is allows the vpn to run in the background, maintaining your access to the command line.
 - Enter your WatIAM username and password when prompted.
 - For two-factor authentication (2FA), use `push`, `phone`, or `sms` as directed by the University of Waterloo's IT guidelines.
 
+### Step 2.4: Detach from the Session
+To detach from the `tmux` session (leave it running):
+```bash
+Ctrl+b d
+```
+- This allows you to leave the VPN running the background while maintaining command line access.
 
 ### Step 2.5: Reattach to the Session (When Done)
 To reattach to your session later:
