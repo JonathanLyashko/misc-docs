@@ -73,3 +73,4 @@ This is the one stop guide to making your windows terminal look like more that a
 
 #### For the full, original documentation, visit:
 <a href="https://ohmyposh.dev/docs/installation/windows" style="display:inline-block; background-color:#0078D4; color:white; padding:6px 12px; text-align:center; text-decoration:none; font-size:16px; border-radius:32px; font-family:Arial, sans-serif;">View Documentation</a>
+
