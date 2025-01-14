@@ -21,14 +21,6 @@ OpenConnect is a command-line VPN client compatible with Cisco AnyConnect VPN.
 sudo apt install openconnect -y
 ```
 
-### Step 1.3: Connect to the VPN
-To connect to the University of Waterloo's VPN:
-```bash
-sudo openconnect cn-vpn.uwaterloo.ca
-```
-- Enter your WatIAM username and password when prompted.
-- For two-factor authentication (2FA), use `push`, `phone`, or `sms` as directed by the University of Waterloo's IT guidelines.
-
 ---
 
 ## 2. Install and Use `tmux`
@@ -52,11 +44,14 @@ Ctrl+b d
 ```
 
 ### Step 2.4: Run VPN in a `tmux` Session
-Once inside a `tmux` session, run your VPN command:
+To connect to the University of Waterloo's VPN:
 ```bash
-sudo openconnect cn-vpn.uwaterloo.ca
+sudo openconnect -v cn-vpn.uwaterloo.ca
 ```
-This allows the session to continue running in the background while you return to the main terminal.
+- This is allows the vpn to run in the background, maintaining your access to the command line.
+- Enter your WatIAM username and password when prompted.
+- For two-factor authentication (2FA), use `push`, `phone`, or `sms` as directed by the University of Waterloo's IT guidelines.
+
 
 ### Step 2.5: Reattach to the Session (When Done)
 To reattach to your session later:
@@ -79,7 +74,7 @@ Replace `username` with your WatIAM username and `servername` with the appropria
 ### Step 3.2: Using SSH with a Custom Port
 If the SSH server uses a port other than the default (22), specify it with the `-p` flag:
 ```bash
-ssh -p `####` [username]@[servername].uwaterloo.ca
+ssh -p [####] [username]@[servername].uwaterloo.ca
 ```
 
 ---
